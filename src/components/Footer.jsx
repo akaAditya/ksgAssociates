@@ -8,8 +8,8 @@ const Footer = () => {
           <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
             <span className="ml-3 text-xl">
               <img
-                src="/public/ksg-associates-logo.png"
-                className="h-16 w-48"
+                src="/ksg-logo.png"
+                className="h-24 w-24"
               />
             </span>
           </a>

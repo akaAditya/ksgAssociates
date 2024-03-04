@@ -37,7 +37,7 @@ const Overview = () => {
     ]
   return (
     <div className="mx-auto px-4 lg:px-8 xl:px-0 max-w-screen-xl">
-  <section className="text-gray-600 body-font overflow-hidden">
+  <section className="text-gray-800 body-font overflow-hidden font-medium">
     <div className="container py-24 mx-auto md:max-w-4xl">
       {data.map((item, index) => (
         <div key={index} className="flex flex-col md:flex-row mb-8 justify-center md:justify-start">
@@ -51,7 +51,7 @@ const Overview = () => {
             <p className="leading-relaxed mb-4">
               {item.Description}
             </p>
-            <a href="#" className="text-slate-100 inline-flex items-center bg-slate-700 py-2 px-4 rounded-sm hover:bg-slate-500 transition-colors">
+            <a href="#" className="text-slate-100 inline-flex items-center bg-slate-500 py-2 px-4 rounded-sm hover:bg-slate-600 transition-colors">
               Learn More
             </a>
           </div>

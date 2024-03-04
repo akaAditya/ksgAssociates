@@ -1,0 +1,17 @@
+:root {
+    --background-image-url: url("https://images.unsplash.com/photo-1508615039623-a25605d2b022?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+body {
+    background-image: var(--background-image-url);
+    background-size: cover;
+    background-position: center;
+    opacity: 1; /* Set opacity to 50% */
+}
+/*
+ body{
+    background-color: #fff;
+    background-image: url('https://images.unsplash.com/photo-1614852206853-fff7e3c8b4cb?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    opacity: ;
+} 
+*/
