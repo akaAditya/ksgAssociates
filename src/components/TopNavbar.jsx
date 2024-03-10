@@ -6,7 +6,7 @@ const TopNavbar = () => {
       <header className="text-slate-300 body-font font-medium bg-blue-800 ">
         <div className="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
           <nav className="flex lg:w-3/5 flex-wrap items-center text-base md:ml-auto">
-            <a className="mr-5 hover:text-gray-300" href="mailto:abcd@xyz.com">Mail: abcd@xyz.com</a>
+            <a className="mr-5 hover:text-gray-300" href="mailto:info@ksgassociates.in">Contact-us: info@ksgassociates.in</a>
             <a className="mr-5 hover:text-gray-300" href="tel:+91-8319191983">+91-8319191983</a>
           </nav>
           

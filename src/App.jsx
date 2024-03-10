@@ -9,6 +9,7 @@ import ImageSlider from "./components/ImageSlider";
 import Navbar from "./components/Navbar";
 import TopNavbar from "./components/TopNavbar";
 import ContactUs from "./components/ContactUs";
+import AboutUs from "./components/AboutUs";
 const App = () => {
   return (
     <React.Fragment>
@@ -17,6 +18,7 @@ const App = () => {
       <ImageSlider />
       <Overview />
       <Testimonials />
+      <AboutUs />
       <ContactUs />
       <Footer />
     </React.Fragment>
